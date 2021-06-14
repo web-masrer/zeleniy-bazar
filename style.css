@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(170, 180, 180);
+  margin: 0px 0px 0px 0px;
+}
+.conteyner {
+  margin: 5px 3% 0px 3%;
+  background-color: rgb(95, 7, 107);
+}
+.header {
+  display: flex;
+  color: rgb(181, 211, 215);
+}
+.logo {
+  max-width: 20%;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+.mary {
+  max-width: 100%;
+}
+.shapka {
+  padding-left: 1%;
+  margin-left: 10%;
+  text-align: center;
+}
+.arenda {
+  padding: 0px 0px 0px 0px;
+}
+.name {
+  color: rgb(68, 85, 227);
+  text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+  .conteyner {
+    margin: 0px 1% 0px 1%;
+  }
+  .mary {
+    max-width: 146%;
+  }
+  h1 {
+    font-size: 25px;
+    margin: 0px 0px 1px 0px;
+  }
+  .arenda {
+    font-size: 20px;
+    margin: 0px 0px 3px 0px;
+  }
+  h4 {
+    font-size: 13px;
+    margin: 0px 0px 3px 0px;
+  }
+  .name {
+    font-size: 15px;
+    margin: 0px 0px 5px 0px;
+  }
+  h3 {
+    font-size: 15px;
+    margin: 0px 0px 5px 0px;
+  }
+  .logo {
+    max-width: 50%;
+    margin-left: 0%;
+  }
+  .nomer {
+    font-size: 20px;
+    color: #4ede1b;
+  }
+}
+
+/* -----!!!!!!!!!!!!!!! -  Main */
+
+.main {
+  background: url(./img/zel.jpg) center no-repeat;
+  background-size: cover;
+  margin: 10px auto;
+  max-width: 1000px;
+  min-height: 400px;
+}
+
+.reklama {
+  height: 30%;
+
+  background-color: blue;
+  display: flex;
+  justify-content: space-around;
+}
+
+.reklama1 {
+  background-color: crimson;
+  width: 20%;
+  height: 20%;
+  /* margin-top: 50%; */
+}
+
+.reklama2 {
+  background-color: crimson;
+  width: 20px;
+  height: 20px;
+}
